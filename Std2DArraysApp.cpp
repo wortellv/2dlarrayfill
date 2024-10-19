@@ -5,10 +5,10 @@ int main() {
     std::array<std::array<int, MAXNUMBEROFCOLUMNS>, MAXNUMBEROFROWS> arr;
     int numberOfRows, numberOfColumns;
 
-    std::cout << "Enter the number of rows: ";
+    std::cout << "The number of rows: ";
     std::cin >> numberOfRows;
 
-    std::cout << "Enter the number of columns: ";
+    std::cout << "The number of columns: ";
     std::cin >> numberOfColumns;
 
     try {
